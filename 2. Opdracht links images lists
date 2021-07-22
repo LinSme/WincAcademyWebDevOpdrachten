@@ -1,0 +1,49 @@
+<!--Onderstaande was de code voor de index.html file -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tweede opdracht Linda </title>
+    </head>
+    <body>
+       <h1>Tweede opdracht Webdevelopment - Linda Smeets</h1>
+       <h2> Opdracht: links, images, lists</h2>
+       <hr>
+
+        <ul>
+            <li> Dit is een lijstje; regel 1</li>
+            <li> Dit is een lijstje; regel 2</li>
+            <li> Dit is een lijstje; regel 3</li>
+        </ul>
+
+        <a href="about.html">Volg deze link voor informatie over mijzelf</a>
+
+        <br>
+        <br>
+        <a href="http://www.google.nL" target="_blank">Link naar Google</a>
+    </body>
+</html>
+
+
+
+
+
+<!--Onderstaande was de code voor de about.html file -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About Linda </title>
+    </head>
+
+    <body>
+        <h1>Tweede opdracht Webdevelopment - Linda Smeets</h1>
+        <h2>Wat informatie over mezelf </h2>
+       
+        Hieronder volgt een plaatje van mijzelf. 
+        <br> Ik geef hier een presentatie over mijn vakgebied.
+        <br> 
+        <br> <img height="200" src="Plaatje van mezelf.jpg">
+        
+        <br> <a href="index.html">Terug naar vorige pagina</a>
+        
+    </body>
+</html>
