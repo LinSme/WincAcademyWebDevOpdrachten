@@ -1,0 +1,66 @@
+<!-- Code voor het index bestand (genaamd '1 Index.html')-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Linda Main page </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Curus Webdevelopment - Linda Smeets</h1>
+            <hr>
+        </header>
+      
+        <main>
+            <h2> 3. Opdracht - HTML lay-out elementen</h2>
+     
+            <ul> Drie dingen alvast over mijzelf
+                <li> Ik speel saxofoon</li>
+                <li> Ik woon in het mooie Oostzaan</li>
+                <li> Ik doe deze cursus om me verder te ontwikkelen</li>
+            </ul>
+            <a href="2 About.html">Volg deze link voor meer informatie over mijzelf</a>
+        </main>
+       
+        <nav>
+            <hr>
+            <a href="http://www.google.nL" target="_blank">Link naar Google</a>
+            <!--Hier komen uiteindelijk vast nog wel meer links, waardoor het logisch is dit onder de nav-tag te plaatsen-->
+        </nav>
+    </body>
+</html>
+
+
+<!-- Code voor het about bestand (genaamd '2 About.html')-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About Linda </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Curus Webdevelopment - Linda Smeets</h1>
+            <hr>
+        </header>
+        
+        <main>
+            <h2>Wie is Linda?</h2>
+            
+            <p>Hi, Ik ben Linda en ik doe deze cursus Web Development.</p>
+            <p>Hieronder volgt een foto van mij.</p>
+            <figure>
+                <img height="200" src="Plaatje van mezelf.jpg">
+                <figcaption>Ik geef hier een presentatie over mijn vakgebied</figcaption> 
+            </figure>
+
+        </main>
+        
+        <nav>
+            <hr>
+            <a href="1 Index.html">Terug naar vorige pagina</a>
+            <!--Hier komen uiteindelijk vast nog wel meer links, waardoor het logisch is dit onder de nav-tag te plaatsen-->
+        </nav>
+        
+    </body>
+</html>
