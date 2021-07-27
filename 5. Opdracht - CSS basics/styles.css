@@ -1,0 +1,14 @@
+html {
+    font-family: 'Zilla Slab', serif;
+}
+header { 
+    color:darkgreen;
+}
+.border {
+        border: 3px dashed green;
+}
+#green-background {
+        background-color: lightgreen;
+}
+
+/* Normaliter zou ik geen id's gebruiken, maar class. Puur voor deze opdracht ook id's toegepast */
