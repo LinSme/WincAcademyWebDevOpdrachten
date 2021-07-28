@@ -1,0 +1,52 @@
+    
+/*-- Onderstaande is ter connectie naar een speciaal lettertype*/
+@import 'Google Font Zilla Slab';
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap");
+
+html {
+    font-family: 'Zilla Slab', serif;
+}
+.border {
+        border: 3px dashed green;
+        margin-bottom: 40px;
+        padding: 10px;
+}
+header { 
+    color:darkgreen;
+    border: 3px solid green;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+main {
+    margin: 20px 40px;
+}
+h2 { 
+    margin-top:0;
+}
+nav{ 
+    margin: 20px 20px;
+    position:fixed;
+    width:90%;
+    bottom:0;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    border-color: black;
+    background-color: darkgreen;
+    color: white;
+}
+nav a:hover {
+    background-color: grey;
+    color: white;
+}
+#green-background {
+        background-color: rgb(229, 241, 229);
+}/* Normaliter zou ik geen id's gebruiken, maar class. Puur voor deze opdracht ook id's toegepast */
