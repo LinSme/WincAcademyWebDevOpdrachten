@@ -1,0 +1,65 @@
+    
+/*-- Onderstaande is ter connectie naar een speciaal lettertype*/
+@import 'Google Font Zilla Slab';
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap");
+
+html {
+    font-family: 'Zilla Slab', serif;
+    Background-color: lightgrey;
+}
+.border {
+        border: 3px dashed green;
+        margin-bottom: 40px;
+        padding: 10px;
+}
+header { 
+    color:darkgreen;
+    border: 3px solid green;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+main {
+    margin: 20px 40px;
+}
+h2 { 
+    margin-top:0;
+}
+nav{ 
+    position:fixed;
+    width:85%;
+    bottom:0;
+
+    border: 3px dashed green;
+    padding: 10px;
+    
+    background-color: rgb(229, 241, 229);;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav li{
+    display: inline;
+    margin: 10px;
+}
+nav a{
+    border-color: black;
+    background-color: darkgreen;
+    color: white;
+}
+nav a:hover {
+    background-color: grey;
+    color: white;
+}
+
+@media screen and (min-width: 1024px) { /*desktop*/
+    header, main { 
+        background-color: whitesmoke;
+    }
+    main {
+        font-size: 14px;
+        line-height: 1.6em;
+    }
+}
