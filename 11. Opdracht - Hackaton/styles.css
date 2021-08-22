@@ -1,0 +1,247 @@
+/*-- Connecting to special font-types*/   
+    
+    /*font-family: 'Zilla Slab', serif;*/
+    @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap");
+    
+    /*font-family: 'WindSong', cursive;*/
+    @import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');  
+  
+    /*font-family: 'Chivo', sans-serif;*/
+    @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+/*ACTIONS GENERAL SET UP OF PAGES*/
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+p{ 
+    padding:10px 0px;
+}
+
+.Back-To-Top-button{ /*At a later stage I will make this button only appear when scrolling has happened, but I need to first learn the Javascript for that*/
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 99;
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background-color: darkgray;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.Back-To-Top-button:hover {
+  background-color: lightseagreen;
+}
+
+body {
+    margin:0px;
+    background-color: lightgoldenrodyellow;
+}
+
+/*ACTIONS TO THE TOP OF THE PAGES*/
+header nav{
+    margin-top:0px;
+    background-color: lightgoldenrodyellow;
+    position:fixed;
+    width:100%;
+    border-bottom:double;
+    border-color: lightgray;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+header a {
+    float: right;
+    padding: 8px;
+    border: solid 1px;
+    border-radius: 20px;
+    border-color: lightgray;
+    text-decoration: none;
+    color: black;
+}   
+header a.active {
+    background-color: lightseagreen;
+}
+header a:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+
+logo {
+    font-family: 'WindSong', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/*ACTIONS TO THE MAIN OF THE PAGES*/
+main {
+    padding-top: 90px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 14px;
+}
+
+main articleintro * {
+    background-color: lightgoldenrodyellow;;
+}
+main articlework * {
+    background-color: salmon;
+}
+main articlepwc * {
+    background-color: rgb(236, 185, 89);
+}
+main articleheineken * {
+    background-color: lightgreen;
+}
+main articlecontact * {
+    background-color: lightpink;
+}
+main articlehobby * {
+    background-color: skyblue;
+}
+main articlesax * {
+    background-color: lightskyblue;
+}
+main articlecoding * {
+    background-color: lightsteelblue;
+}
+.articlebox {
+    margin: 10px 10px;
+    padding: 20px;
+    border-left-style:solid;
+    border-radius: 20px;
+}
+
+.articlebox img {
+    max-width: 100%;
+}
+.articlebox-with-links {
+    margin: 0px 10px;
+    padding: 20px;
+    border-left-style:solid;
+    border-radius: 20px;
+}
+.articlebox-with-links li{
+    display: inline-block;
+}
+.articlebox-with-links img {
+    border-style: outset;
+    border-radius: 20px;
+    border-color: lightseagreen;
+    padding: 8px 4px;
+}   
+.articlebox-with-links img:hover {
+    background-color: lightseagreen;
+}
+
+.articlebox-CV-style {
+    margin: 90px 10px 0px;
+    padding: 20px;
+    border-left-style:solid;
+    border-radius: 20px;
+}
+.articlebox-CV-style h2 {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+.articlebox-CV-style h3 {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.articlebox-CV-style ul {
+    padding-left: 20px;
+}
+.articlebox-CV-style li {
+    padding-left: 20px;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+form p{
+    padding:0px;
+}
+
+form textarea{
+    width:98%;
+    height: 100px;
+    border: inset 2px;
+    border-color:gray;
+}
+form input[type="submit"] {
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 20px;
+}
+form input:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+form textarea:hover{
+    background-color: lightseagreen;
+}
+.hidden-text {
+    display: none;
+}
+.Box-around-button:hover .hidden-text{
+    display: block;
+    font-style:oblique;
+    color: darkred;
+}
+
+iframe  {
+   width:250px;
+}
+
+/*ACTIONS TO THE BOTTOM OF THE PAGES*/
+footer {
+    font-family:'Chivo', sans-serif;
+    font-size: 10px;
+}
+
+
+
+
+/*The above was al build mobile first, for screen widths between 320px and 768px. */
+@media screen and (max-width: 319px){ 
+    /*Smaller than smartphone, not required to take any action, but the below helps while coding to avoid making things beautiful for irrelevant screen sizes) */
+    header nav{
+        background-color: black;
+    }
+}
+
+/*The below will adjust for tablet screens (as of 768px; tablet-portrait mode).*/
+@media screen and (min-width: 768px){ 
+    header nav{
+        background-color: lightcyan;
+    }
+    body {
+        background-color: lightcyan;
+    }
+    main div {
+        columns: 2;
+    }
+    div[class="Box-around-button"]{
+        columns:1;
+    }
+    div[class=hidden-text]{
+        columns:1;
+    }
+}
+
+
+/*The below will adjust for desktop screens, starting as of 1024px.*/
+@media screen and (min-width: 1024px){ 
+    header nav{
+        background-color: lavenderblush;
+    }
+    body {
+        background-color: lavenderblush;
+    }
+}
