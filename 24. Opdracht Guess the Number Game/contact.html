@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact | Linda Smeets</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <a class="Back-To-Top-button" href="contact.html">Back to Top </a>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <logo>Linda Smeets</logo><br>
+            <a class="active" href="contact.html"><img src="images/contact.png" width="20"> </a>
+            <a href="hobby.html"><img src="images/sax.png" width="20"> Hobby</a>
+            <a href="work.html"><img src="images/work.png" width="20"> Work</a>
+            <a href="index.html"><img src="images/home.png" width="20"> Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <articlecontact>
+            <br>
+            <div class="articlebox-with-links">
+                <h1> Contact</h1>
+                <p>Please use this contact form, and I'll reach out to you!</p>
+                <form name="ContactFormMyOwnPersonalWebsite" method="POST" data-netlify="true">
+                    <p><label> Your name: </label>
+                        <br><input type="text" name="Respondents name" required>
+                    </p>
+                    <p><label> Your e-mail: </label>
+                        <br><input type="email" name="Respondents e-mail" required>
+                    </p>
+                    <br>
+                    <p><label> What did you like MOST about my website:</label>
+                        <br><input type="radio" name="LikedMost" id="Liked1" value="Getting to know you"><label> Getting
+                            to know you</label>
+                        <br><input type="radio" name="LikedMost" id="Liked2" value="Use of colors"><label> The use of
+                            colors</label>
+                        <br><input type="radio" name="LikedMost" id="Liked3" value="Navigational ease"><label> The ease
+                            of navigating on the website</label>
+                        <br><input type="radio" name="LikedMost" id="Liked4" value="Other"><label> Other (please add in
+                            comment box)</label>
+                    </p>
+                    <br>
+                    <p><label> What should be improved about my website:</label>
+                        <br><input type="checkbox" name="Disliked1" id="Disliked1" value="Getting to know you">
+                        <label> You should add more information</label>
+                        <br><input type="checkbox" name="Disliked2" id="Disliked2" value="Use of colors"><label> Dear
+                            lord, I'm going color blind!</label>
+                        <br><input type="checkbox" name="Disliked3" id="Disliked3" value="Navigational ease"><label>
+                            Something did not work how it should!</label>
+                        <br><input type="checkbox" name="DisLiked4" id="DisLiked4" value="Other"><label> Other
+                            (please add in comment box)</label>
+                    </p>
+                    <br>
+                    <p><label>Please add any comments below:</label>
+                        <br><textarea name="Respondents comments"></textarea>
+                    </p>
+                    <br>
+                    <div class="Box-around-button">
+                        <input type="submit" value="Send">
+                        <div class="hidden-text">
+                            <p>Thank you so much for taking the time to do this!</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </articlecontact>
+    </main>
+
+    <footer>
+        <br>
+        <hr>
+        <p>&copy; 2021 Linda Smeets</p>
+    </footer>
+
+</body>
+
+</html>
