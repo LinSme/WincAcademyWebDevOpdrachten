@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Eindopdracht Linda Smeets </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Eind Opdracht WincAcademy cursus Webdevelopment Linda Smeets</h1>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h2>Basis Opdracht</h2>
+                <h3>Requirements</h3>
+
+                <p>Aan deze minimale eisen moet jouw project voldoen:</p>
+                <ol>
+                    <li>Als gebruiker wil ik op een hamburger-icoon kunnen klikken dat uitklapt als ik er op klik.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                    <li>Als gebruiker wil ik in het uitgeklapte menu een keuze hebben aan kleuren (uitgeschreven in
+                        tekst). Elk item in het menu is één kleur.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                    <li>Als gebruiker wil ik op één van de kleuren kunnen klikken.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                    <li>Wanneer ik als gebruiker op de kleur in het menu heb geklikt verandert de achtergrondkleur van
+                        de gehele pagina in de aangeklikte kleur.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                    <li>Wanneer ik als gebruiker op de kleur in het menu klik, klapt het menu weer terug in. <img
+                            src="images/checkmark.png" height="20"></li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Mijn uitvoering (script1.js):</h3>
+                <img id="menuButton1" src="images/menu.png" height="180">
+
+                <ul id="drop-down-menu-1" class="drop-down-menu-1-invisible">
+                    <li id="red">Red</li>
+                    <li id="white">White</li>
+                    <li id="blue">Blue</li>
+                    <li id="orange">Orange</li>
+                    <li id="original">Back to the original color</li>
+                </ul>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <h2>Bonus Opdracht</h2>
+                <h3>Bonus Requirements</h3>
+                <ul>
+                    <li>Als gebruiker wil ik niet alleen de kleurennamen lezen, ik wil ook de kleuren kunnen zien in het
+                        menu. Elke "rij" in het menu heeft een kleur.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                    <li>Als gebruiker wil ik op een radiobutton kunnen klikken van de kleur van mijn keuze, waardoor ik
+                        aan de radiobutton zie wat de huidige kleur is die "actief" is op dit moment.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                    <li>Als gebruiker wil ik in plaats van klikken met mijn muis over de hamburger kunnen hoveren,
+                        waardoor het menu verschijnt. Wanneer ik als gebruiker met mijn muis weer weg ga bij de
+                        hamburger verdwijnt het menu weer.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                    <li>Als gebruiker wil ik de naast de veranderende achtergrondkleur ook de uitgeschreven naam van de
+                        achtergrondkleur op de achtergrond zien wanneer ik deze heb aangeklikt.
+                        <img src="images/question-mark.png" height="20">
+                        <div class="my-notes">
+                            Ik begrijp echt wat de bedoeling is van deze requirement.....?
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Mijn uitvoering tot dit punt (script2.js):</h3>
+                <img id="menuButton2" src="images/menu.png" height="180">
+
+                <ul id="drop-down-menu-2" class="drop-down-menu-2-invisible">
+                    <li class="red">
+                        <input type="radio" id="radiobtn2-red" name="color-toggle2"> Red
+                    </li>
+                    <li class="white">
+                        <input type="radio" id="radiobtn2-white" name="color-toggle2"> White
+                    </li>
+                    <li class="blue">
+                        <input type="radio" id="radiobtn2-blue" name="color-toggle2"> Blue
+                    </li>
+                    <li class="orange">
+                        <input type="radio" id="radiobtn2-orange" name="color-toggle2"> Orange
+                    </li>
+                    <li class="original">
+                        <input type="radio" id="radiobtn2-original" name="color-toggle2" checked="checked"> Back to the
+                        original color
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <h2>Bonus Opdracht vervolg (langzaam in beeld)</h2>
+                <ul>
+                    <li>Als gebruiker wil ik het menu langzaam in beeld zien schuiven en weer uit beeld zien schuiven,
+                        in plaats van plotseling verschijnen.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Mijn uitvoering van requirement (script3.js):</h3>
+                <div class="my-notes">
+                    <p>Ik heb deze bonus requirement los gedaan; Ik kwam hier niet direct zelf uit, ben toen de filmpjes
+                        gaan kijken en kwamer daarmee achter dat bovenstaande requirements ook anders hadden gekunt. Ik
+                        vond het echter tézonde om mijn eerdere code uit script2.js weg te gooien en niet óók te laten
+                        zien. Tenslotte zijn er in JavaScript meerdere wegen naar Rome. Ik heb daarom besloten om voor
+                        deze bonus requirement, overnieuw te beginnen in script3.js.</p>
+                    <p>Het valt me overigens op dat ik op deze manier (geleerd uit het filmpje dat jullie adviseren),
+                        ook wanneer de kleurcodes niet zichtbaar zijn, ik wél altijd een lege ruimte ervoor heb. Dit was
+                        op mijn script2.js methode niet. Is hier op de script3.js methode iets aan te doen?</p>
+                </div>
+                <img id="menuButton3" src="images/menu.png" height="180">
+
+                <aside class="dropDownMenu3">
+                    <ul>
+                        <li class="red">
+                            <input type="radio" id="radiobtn3-red" name="color-toggle3"> Red
+                        </li>
+                        <li class="white">
+                            <input type="radio" id="radiobtn3-white" name="color-toggle3"> White
+                        </li>
+                        <li class="blue">
+                            <input type="radio" id="radiobtn3-blue" name="color-toggle3"> Blue
+                        </li>
+                        <li class="orange">
+                            <input type="radio" id="radiobtn3-orange" name="color-toggle3"> Orange
+                        </li>
+                        <li class="original">
+                            <input type="radio" id="radiobtn3-original" name="color-toggle3" checked="checked"> Back to
+                            the
+                            original color
+                        </li>
+                    </ul>
+                </aside>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <h2>Bonus opdracht laatste requirement (key press)</h2>
+                <div class="my-notes">Naar mijn idee moet de key press methode er heel anders uitzien: een input veld
+                    is hiervoor nodig. Vandaar dat ik dit stuk code hieronder ben gaan uitvoeren, via script4.js.</div>
+                <ul>
+                    <li>Verander de kleuren door het gebruik van keyboard toetsen.
+                        <img src="images/checkmark.png" height="20">
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Mijn uitvoering van deze laatste requirement (script4.js):</h3>
+                <img id="menuButton4" src="images/menu.png" height="180">
+
+                <aside class="dropDownMenu4">
+                    <ul>Welke kleur wil je de achtergrond maken?
+                        <br>Typ hier het gewenste nummer <input type="input">
+                        <li class="red">Red: typ 1 in</li>
+                        <li class="white">White: typ 2 in</li>
+                        <li class="blue">Blue: typ 3 in</li>
+                        <li class="orange">Orange: typ 4 in</li>
+                        <li class="original">Back to the original color: typ 5 in</li>
+                    </ul>
+                </aside>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <div class="my-notes">
+                    <p>Ik hoop dat ik met deze uitvoeringen voldaan heb aan de opdracht, om te tonen dat en wat ik
+                        geleerd heb van deze cursus! </p>
+                    <p> Het was leuk om weer eens zo met code bezig te zijn. Ik zet na het halen van mijn certificaat
+                        deze extra kennis op mijn LinkedIn!
+                    </p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2021 Linda Smeets</p>
+    </footer>
+
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script4.js"></script>
+</body>
+
+</html>

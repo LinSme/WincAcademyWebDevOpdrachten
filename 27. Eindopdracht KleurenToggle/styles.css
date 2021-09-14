@@ -1,0 +1,129 @@
+body{
+    background-color: lightgray;
+}
+article{
+    border-style: double;
+    margin: 20px;
+}
+section{
+    margin: 20px;
+}
+
+.red {
+    background-color: red;
+}
+.white {
+    background-color: white;
+}
+.blue {
+    background-color: blue;
+}
+.orange {
+    background-color: orange;
+}
+.original{
+    background-color: lightgray;
+}
+
+
+/* Styling voor de basis opdracht, in combi met script1.js */
+#menuButton1:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+#drop-down-menu-1{
+    list-style-type: none;
+}
+
+#drop-down-menu-1 li {
+    display: block;
+    margin: 4px;
+    padding: 10px;
+    width: 200px;
+    border-style: outset;
+}
+
+.drop-down-menu-1-invisible{
+    display: none;
+}
+
+
+/* Styling voor de bonus opdracht, in combi met script2.js */
+#menuButton2:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+#drop-down-menu-2 li {
+    list-style-type: none;
+    display: block;
+    margin: 4px;
+    padding: 10px;
+    width: 200px;
+    border-style: outset;
+}
+
+.drop-down-menu-2-invisible{
+    display: none;
+}
+
+
+/* Styling voor de een-na-laatste onderdeel van de bonus opdracht, in combi met script3.js */
+#menuButton3:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.dropDownMenu3 ul{
+    padding: 40;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.dropDownMenu3 li{
+    list-style-type: none;
+    display: block;
+    margin: 4px;
+    padding: 10px;
+    width: 275px;
+    border-style: outset;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+
+/* Styling voor de laatste onderdeel van de bonus opdracht, in combi met script4.js */
+#menuButton4:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.dropDownMenu4 ul{
+    padding: 40;
+    overflow: hidden;
+    visibility: hidden;
+    transition: all 1s ease-in;
+    transition: all 0.5s ease-out;
+}
+
+.dropDownMenu4 li{
+    list-style-type: none;
+    display: block;
+    margin: 4px;
+    padding: 10px;
+    width: 275px;
+    border-style: outset;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+
+/* Styling voor mijn opmerking over de (bonus) requirements */
+div.my-notes{
+    color: darkred;
+}
